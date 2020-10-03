@@ -4,14 +4,22 @@ html {
 
 body {
 	color: aliceblue;
-	background: blue url(nachos.jpg);
+	background: blue url(mexicanfood.jpg);
 	background-size: 100% 100%;
   background-attachment: fixed;
-	margin: 0px 20px;
+	margin: 0px 20px 10px 20px;
 	font-family: 'Architects Daughter', cursive;
 	font-size: 1em;
 }
 
+.customH1 {
+	border-bottom: 3px solid;
+}
+
 .pickupDelivery {
 	font-size: 2em;
+}
+
+.modal-content {
+	color: black;
 }
