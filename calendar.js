@@ -38,7 +38,26 @@ let events = [
             "date": "2020-10-10T22:00:00"
           }            
         ]
-    }   
+    },
+    {
+      "id": 1,
+      "name": "Mariachi",
+      "startDate": "2020-11-07T21:00",
+      "endDate": "2020-11-07T11:59",
+      "reservations": 
+      [
+        {
+          "name": "Jason",
+          "number": 2,
+          "date": "2020-10-03T21:30"
+        },
+        {
+          "name": "Jennifer",
+          "number": 3,
+          "date": "2020-10-03T22:00"
+        }            
+      ]
+    }       
   ];
 
 let today = new Date();
