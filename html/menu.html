@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Picante Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- <style>
+  h1, h3, h4{
+    margin-left: 30px;
+  }
+.vertical-menu {
+  width: 300px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+
+.row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        transition:all 0.3s linear;
+          font-size: 16px;
+
+    }
+
+
+
+.vertical-menu a:hover {
+  background-color: #d1e9ec;
+}
+
+.vertical-menu a.active {
+  background-color: #f74204;
+  color: white;
+}
+</style> -->
+
+  <!-- CSS only -->
+  <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+    crossorigin="anonymous"
+  >
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+   crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+   integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+   crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
+    crossorigin="anonymous">
+  </script>
+
+  <link rel="stylesheet" href="../css/menu.css">
+
+</head>
+<body>
+
+  <!--Nav-Bar-->
+  <div class="fixed-top justify-content-end" >
+      
+    <div class="collapse" id="navbarToggleExternalContent"> 
+        
+      <div class="bg-dark p-4" style="background-color: #0e0e0e !important;">
+        <nav class="nav flex-column">
+            <a class="nav-link active" href="../index.html">Home</a>
+            <a class="nav-link" href="./custom.html">Order</a>
+            <a class="nav-link" href="./calendar.html">Events</a>
+          </nav>
+          
+      </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class=""> <img src="../images/skull.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"></span>
+      </button>
+    </nav>
+  </div>
+  <br>
+
+
+  <h1 class="h1-menu">Welcome to Picante Restaurant</h1>
+  <br>
+  <h3>Spiciness:&nbsp
+    Mild&nbsp;<i class="fas fa-pepper-hot mild"></i>&nbsp;
+    Medium&nbsp;<i class="fas fa-pepper-hot medium"></i>&nbsp;
+    Hot&nbsp;<i class="fas fa-pepper-hot hot"></i>&nbsp;
+    Hell&nbsp;<i class="fas fa-pepper-hot hell"></i>
+  </h3>
+  <br>
+
+  <h2>Lunch Menu</h2>
+  <div class="row">
+    <div class="vertical-menu">
+      <a href="menu.html" class="active">Meat</a>
+      <a href="lunchmeatg1.html">Meat &amp; Potatoes <i class="fas fa-pepper-hot mild"></i> -- $36.00</a>
+      <a href="lunchmeatg2.html">Meat Jambalaya <i class="fas fa-pepper-hot medium"></i> -- $50.00</a>
+      <a href="lunchmeatg3.html">Mexican Style Meat <i class="fas fa-pepper-hot hot"></i> -- $58.00</a>
+      <a href="lunchmeatg4.html">Meat Poboy <i class="fas fa-pepper-hot hell"></i> -- $58.00</a>
+    </div>
+    <div class="vertical-menu">
+      <a href="menu.html" class="active">Chicken</a>
+      <a href="lunchchickeng1.html">Chicken Garlic <i class="fas fa-pepper-hot mild"></i> -- $15.00</a>
+      <a href="lunchchickeng2.html">Chicken Jambalaya <i class="fas fa-pepper-hot medium"></i> -- $24.00</a>
+      <a href="lunchchickeng3.html">Louisiana Chicken <i class="fas fa-pepper-hot hot"></i> -- $23.00</a>
+      <a href="lunchchickeng4.html">Canuck Polo Chicken <i class="fas fa-pepper-hot hell"></i> 21.00</a>
+    </div>
+    <div class="vertical-menu">
+      <a href="menu.html" class="active">Duck</a>
+      <a href="lunchduckg1.html">Spicy Marinated Duck <i class="fas fa-pepper-hot mild"></i> -- $25.00</a>
+      <a href="lunchduckg2.html">Spicy Chinese Duck <i class="fas fa-pepper-hot medium"></i> -- $28.00</a>
+      <a href="lunchduckg3.html">Spicy Saigon Duck <i class="fas fa-pepper-hot hot"></i> -- $31.00</a>
+      <a href="lunchduckg4.html">South American Duck <i class="fas fa-pepper-hot hell"></i> -- $31.00</a>
+    </div>
+    <div class="vertical-menu">
+      <a href="menu.html" class="active">Mexican</a>
+      <a href="lunchtacosg1.html">Real Tacos for Machos <i class="fas fa-pepper-hot mild"></i> -- $30.00</a>
+      <a href="lunchtacosg2.html">Real Tacos al Pastor <i class="fas fa-pepper-hot medium"></i> -- $24.00</a>
+      <a href="lunchtacosg3.html">Tacos Sincronisados <i class="fas fa-pepper-hot hot"></i> -- $29.00</a>
+      <a href="lunchtacosg4.html">Tacos del Norte <i class="fas fa-pepper-hot hell"></i> -- $27.00</a>
+    </div>
+  </div>
+
+  <br>
+  <h3>Dinner Menu</h3>
+  <div class="row">
+    <div class="vertical-menu">
+      <a href="menu.html" class="active">Meat</a>
+      <a href="dinnermeatg1.html">Meat &amp; Potatoes <i class="fas fa-pepper-hot mild"></i> -- $36.00</a>
+      <a href="dinnermeatg2.html">Meat Jambalaya <i class="fas fa-pepper-hot medium"></i> -- $50.00</a>
+      <a href="dinnermeatg3.html">Mexican Style Meat <i class="fas fa-pepper-hot hot"></i> -- $58.00</a>
+      <a href="dinnermeatg4.html">Meat Poboy <i class="fas fa-pepper-hot hell"></i> -- $58.00</a>
+    </div>
+    <div class="vertical-menu">
+      <a href="menu.html" class="active">Chicken</a>
+      <a href="dinnerchickeng1.html">Chicken Garlic <i class="fas fa-pepper-hot mild"></i> -- $20.00</a>
+      <a href="dinnerchickeng2.html">Chicken Jambalaya <i class="fas fa-pepper-hot medium"></i> -- $32.00</a>
+      <a href="dinnerchickeng3.html">Louisiana Chicken <i class="fas fa-pepper-hot hot"></i> -- $33.00</a>
+      <a href="dinnerchickeng4.html">Canuck Polo Chicken <i class="fas fa-pepper-hot hell"></i> -- $31.00</a>
+    </div>
+    <div class="vertical-menu">
+      <a href="menu.html" class="active">Duck</a>
+      <a href="dinnerduckg1.html">Spicy Marinated Duck <i class="fas fa-pepper-hot mild"></i> -- $30.00</a>
+      <a href="dinnerduckg2.html">Spicy Chinese Duck <i class="fas fa-pepper-hot medium"></i> -- $32.00</a>
+      <a href="dinnerduckg3.html">Spicy Saigon Duck <i class="fas fa-pepper-hot hot"></i> -- $38.00</a>
+      <a href="dinnerduckg4.html">South American Duck <i class="fas fa-pepper-hot hell"></i> -- $36.00</a>
+    </div>
+    <div class="vertical-menu">
+      <a href="menu.html" class="active">Mexican</a>
+      <a href="dinnertacosg1.html">Real Tacos for Machos <i class="fas fa-pepper-hot mild"></i> -- $35.00</a>
+      <a href="dinnertacosg2.html">Real Tacos al Pastor <i class="fas fa-pepper-hot medium"></i> -- $29.00</a>
+      <a href="dinnertacosg3.html">Tacos Sincronisados <i class="fas fa-pepper-hot hot"></i> -- $40.00</a>
+      <a href="dinnertacosg4.html">Tacos del Norte <i class="fas fa-pepper-hot hell"></i> -- $65.00</a>
+    </div>
+  </div>
+
+</body>
+</html>

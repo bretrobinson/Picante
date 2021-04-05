@@ -1,0 +1,66 @@
+body {
+  color: aliceblue;
+  background: blue url(../images/tablesetting.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  margin: 0px 20px 10px 20px;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-left: 30px;
+}
+
+.h1-menu {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid;
+}
+
+.vertical-menu {
+  width: 300px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: all 0.3s linear;
+  font-size: 16px;
+}
+
+.vertical-menu a:hover {
+  background-color: #d1e9ec;
+}
+
+.vertical-menu a.active {
+  background-color: #f74204;
+  color: white;
+}
+
+.mild {
+  color: green;
+}
+
+.medium {
+  color: orange;
+}
+.hot {
+  color: red;
+}
+.hell {
+  color: darkred;
+}
