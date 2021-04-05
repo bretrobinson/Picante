@@ -1,12 +1,12 @@
 {
-  "name": "Picante",
+  "name": "server",
   "version": "1.0.0",
   "description": "Mexican themed restaurant site for EvolveU hackathon",
   "scripts": {
-    "start": "serve",
+    "start": "serve"
   },
+  "author": "Bret Robinson",
   "dependencies": {
     "serve": "^10.0.1"
-  },
-  "author": "Bret Robinson"
+  }
 }
